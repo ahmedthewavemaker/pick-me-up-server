@@ -17,27 +17,18 @@
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
-<<<<<<< HEAD
     "chai": "^4.3.4",
-=======
->>>>>>> 5a6a73339ad65d134be505f0d5928ce0a9b587c8
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "helmet": "^4.4.1",
     "jsonwebtoken": "^8.5.1",
     "knex": "^0.95.4",
-<<<<<<< HEAD
     "mocha": "^8.4.0",
     "morgan": "^1.10.0",
     "pg": "^8.5.1",
     "postgrator": "^4.1.1",
     "supertest": "^6.1.3",
-=======
-    "morgan": "^1.10.0",
-    "pg": "^8.5.1",
-    "postgrator": "^4.1.1",
->>>>>>> 5a6a73339ad65d134be505f0d5928ce0a9b587c8
     "xss": "^1.0.9"
   }
 }
