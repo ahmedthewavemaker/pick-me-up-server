@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const knex = require('knex')
 const app = require('../src/app')
 const {gameArray} = require('./game-fixture')
@@ -119,4 +120,15 @@ describe('Game Endpoints', function () {
 
 
 
+=======
+
+const app = require('../src/app')
+
+describe('App', () => {
+  it('GET / responds with 200 containing "Hello, world!"', () => {
+    return supertest(app)
+      .get('/')
+      .expect(200, 'Hello, world!')
+  })
+>>>>>>> 5a6a73339ad65d134be505f0d5928ce0a9b587c8
 })

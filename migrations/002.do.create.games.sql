@@ -4,6 +4,10 @@ CREATE TABLE soccer_games (
   name TEXT NOT NULL,
   maxplayers INTEGER NOT NULL,
   location TEXT NOT NULL,
+<<<<<<< HEAD
   date datetime NOT NULL
+=======
+  date date NOT NULL
+>>>>>>> 5a6a73339ad65d134be505f0d5928ce0a9b587c8
  
 );

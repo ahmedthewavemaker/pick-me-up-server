@@ -13,7 +13,11 @@ const GameService={
             .select(
                 '*'
             )
+<<<<<<< HEAD
             .where('id', game_id)
+=======
+            .where(game.id, game_id)
+>>>>>>> 5a6a73339ad65d134be505f0d5928ce0a9b587c8
             .first()
     },
 
