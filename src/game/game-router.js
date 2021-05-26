@@ -103,20 +103,11 @@ gameRouter
       .then( rowsAffected => {
         console.log(rowsAffected + ' has been deleted')
 
-    
-    
-      .then( rowsAffected => {
-        console.log(rowsAffected)
-        if(rowsAffected === 0){
-            return res.sendStatus(404)
-        }
-
-
         res.status(204).end()
       })
       .catch(next)
     })
-})
+
 
 
 module.exports = gameRouter

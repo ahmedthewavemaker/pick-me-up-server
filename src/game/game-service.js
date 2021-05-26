@@ -14,7 +14,6 @@ const GameService={
                 '*'
             )
             .where('id', game_id)
-            .where(game.id, game_id)
             .first()
     },
 
