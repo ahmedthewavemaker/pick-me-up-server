@@ -4,7 +4,7 @@ CREATE TABLE soccer_games (
   name TEXT NOT NULL,
   maxplayers INTEGER NOT NULL,
   location TEXT NOT NULL,
-  date datetime NOT NULL
+  date timestamp NOT NULL
 
  
 );
